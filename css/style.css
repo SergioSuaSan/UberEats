@@ -73,6 +73,35 @@ main {
 }
 .comida {
     font-family: roboto;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 400;
+    margin: 16px;
 }
+.itt {
+    width: 400px;
+    border: none;
+    padding: 16px;
+    background-image: url(../img/map-market.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+
+}
+.itt::placeholder {
+    padding: 16px;
+    font-weight: 500;
+    font-family: roboto;
+}
+.its {
+    padding: 16px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: roboto;
+}
+
+
+
