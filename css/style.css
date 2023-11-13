@@ -1,0 +1,78 @@
+@font-face {
+    font-family: roboto;
+    src: url(font/roboto.woff2);
+}
+body{
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.row {
+    display: flex;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.align-items-center {
+    align-items: center;
+}
+.h-500 {
+    height: 500px;
+}
+.text-center {
+    text-align: center;
+}
+
+
+header {
+    padding: 8px 20px;
+}
+.btn {
+    padding: 6px 16px;
+    border: solid 1px gainsboro;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: white;
+}
+.btn2 {
+    padding: 6px 16px;
+    border: solid 1px gainsboro;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+
+
+main {
+    position: relative;
+    background-color: rgb(255, 242, 216);
+}
+.fondo1 {
+    background-image: url(../img/fondo1.svg);
+    background-repeat: no-repeat;
+    width: 50%;
+}
+.fondo2 {
+    background-image: url(../img/fondo2.svg);
+    background-repeat: no-repeat;
+    width: 50%;
+    background-position-x: right;
+}
+
+
+.cristal {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.comida {
+    font-family: roboto;
+    font-size: 24px;
+    font-weight: 400;
+}
